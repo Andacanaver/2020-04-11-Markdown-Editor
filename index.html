@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js'></script>
+        <script src='./script.js'></script>
+        <title>Markdown Editor</title>
+        <link href="./style.css"  rel="stylesheet"/>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <div class="input-area">
+                    <form class="input-form">
+                        <label for="markdown">What would you like to make into HTML?</label>
+                        <textarea cols="30" rows="30" name="markdown" id="markdown"></textarea>
+                        <button type='submit'>Make HTML</button>
+                    </form>
+                </div>
+                <div class="html-area">
+                    <h1>Results</h1>
+                    <p>Below this is the area where your markdown will appear. Try writing some now.</p>
+                    <div class="root hidden">
+                
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
