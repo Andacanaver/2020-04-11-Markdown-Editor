@@ -30,9 +30,13 @@ body {
 .input-form label {
     font-size: 2.5em;
 }
+.input-form textarea {
+    font-size: 1.25em;
+}
 .input-form button {
     margin: 15px;
     font-size: 1.5em;
+    border-radius: 10px;
 }
 
 .root {
